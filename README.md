@@ -1,4 +1,4 @@
-1."WATERMALON"
+1."WATERMALON (4A)"
 
 #include <iostream>
 using namespace std;
@@ -18,4 +18,35 @@ int main (){
 
     return 0;
 }
+
+2."TEAM (231 A)"
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    int counts = 0;
+
+    for (int i = 0; i < n; i++)
+    {
+
+        int a, b, c;
+
+        cin >> a >> b >> c;
+
+        int sum = a + b + c;
+
+        if (sum >= 2)
+        {
+            counts++;
+        }
+    }
+
+    cout << counts << endl;
+    return 0;
+}
+
 
