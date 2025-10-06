@@ -74,5 +74,20 @@ int main() {
     return 0;
 }
 
+4.Domino piling 50A
+
+#include <iostream>
+using namespace std;
+
+int main (){
+   int m,n;
+   cin>>m>>n;
+   int area = m*n;
+   int totalDomino = area/2;
+   cout <<totalDomino<<endl;
+   return 0;
+}
+
+
 
 
