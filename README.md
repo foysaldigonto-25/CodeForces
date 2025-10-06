@@ -49,4 +49,30 @@ int main() {
     return 0;
 }
 
+3.B++ (282A)
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    int x = 0;
+    string s;
+
+    for (int i = 0; i < n; i++) {
+        cin >> s;  // read statement
+
+        if (s == "++X" || s == "X++")
+            x++;
+        else if (s == "--X" || s == "X--")
+            x--;
+    }
+
+    cout << x << endl;
+    return 0;
+}
+
+
 
