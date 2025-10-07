@@ -80,13 +80,21 @@ int main() {
 using namespace std;
 
 int main (){
+
    int m,n;
+   
    cin>>m>>n;
+   
    int area = m*n;
+   
    int totalDomino = area/2;
    cout <<totalDomino<<endl;
+
+   
    return 0;
+   
 }
+
 
 5.Helpful maths (339A)
 
