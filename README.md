@@ -88,6 +88,32 @@ int main (){
    return 0;
 }
 
+5.Helpful maths (339A)
+
+#include <iostream>
+#include <algorithm>
+#include <string>
+using namespace std;
+
+int main() {
+    string s;
+    cin >> s;
+
+    string num = "";
+    for (char c : s)
+        if (c != '+') num += c;
+
+    sort(num.begin(), num.end());
+
+    for (int i = 0; i < num.size(); i++) {
+        cout << num[i];
+        if (i < num.size() - 1) cout << "+";
+    }
+
+    return 0;
+}
+
+
 
 
 
