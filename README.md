@@ -205,6 +205,33 @@ int main() {
     return 0;
 }
 
+10.In Search of an Easy Problem (1030A)
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;         
+    int opinion;
+    bool hard = false; 
+
+    for (int i = 0; i < n; i++) {
+        cin >> opinion;
+        if (opinion == 1) {  
+            hard = true;
+        }
+    }
+
+    if (hard)
+        cout << "HARD";
+    else
+        cout << "EASY";
+
+    return 0;
+}
+
+
 
 
 
