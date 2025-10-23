@@ -399,8 +399,7 @@ int main() {
         n %= bills[i];
     }
     cout << count;
-    return 0;
-}
+    return 0
 
 
 
