@@ -1,4 +1,4 @@
-1."WATERMALON (4A)"
+1.WATERMALON (4A)
 
 #include <iostream>
 using namespace std;
