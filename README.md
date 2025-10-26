@@ -19,7 +19,7 @@ int main (){
     return 0;
 }
 
-2."TEAM (231 A)"
+2.TEAM (231 A)
 
 #include <iostream>
 using namespace std;
