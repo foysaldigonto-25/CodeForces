@@ -74,7 +74,7 @@ int main() {
     return 0;
 }
 
-4.Domino piling 50A
+4.Domino piling (50A)
 
 #include <iostream>
 using namespace std;
