@@ -121,7 +121,7 @@ int main() {
     return 0;
 }
 
-6.Bear and Big Brother (791 A)
+6.Bear and Big Brother (791A)
 
 #include <iostream>
 using namespace std;
