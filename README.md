@@ -205,7 +205,7 @@ int main() {
     return 0;
 }
 
-10.In Search of an Easy Problem (1030A)
+10.In Search of an easy Problem (1030A)
 
 #include <iostream>
 using namespace std;
