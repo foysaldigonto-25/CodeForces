@@ -274,7 +274,7 @@ int main() {
     return 0;
 }
 
-12.344A	Magnets
+12.	Magnets (344A)
 
 #include <iostream>
 #include <string>
