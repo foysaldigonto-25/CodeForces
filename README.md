@@ -301,7 +301,7 @@ int main() {
     return 0;
 }
 
-13.(200B) Drinks
+13. Drinks (200B)
 
 #include <iostream>
 using namespace std;
