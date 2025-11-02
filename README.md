@@ -319,7 +319,7 @@ int main() {
     return 0;
 }
 
-14.(61A) Ultra-Fast Mathematician
+14. Ultra-Fast Mathematician (61A)
 
 #include <iostream>
 #include <string>
