@@ -339,7 +339,7 @@ int main() {
     return 0;
 }
 
-15.(144A) Arrival of the General
+15. Arrival of the General (144A)
 
 #include <iostream>
 #include <vector>
