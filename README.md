@@ -365,7 +365,7 @@ int main() {
     return 0;
 }
 
-16.(1328A) Divisibility Problem
+16.Divisibility Problem (1328A) 
 
 #include <iostream>
 using namespace std;
